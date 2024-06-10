@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header Style */
+header {
+    background: linear-gradient(to right,black, #737373);
+    color: rgb(255, 255, 255);
+    padding: 10px 0;
+}
+.container {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    /* max-width: 1200px; */
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    height: 100px;
+}
+
+/* Main Content */
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+    background-image: url('../images/kopibg.png');
+    background-size: cover;
+}
+
+.hero-image {
+    width: 40%;
+    height: auto;
+}
+
+/* Slideshow */
+.products {
+    /* max-width: 1200px; */
+    margin: 0 auto;
+    text-align: center;
+}
+
+.slideshow {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+
+.slide {
+    margin: auto;
+    transition: transform 1s ease-in-out;
+    display: none;
+}
+.slide-image {
+    width: 100%;
+    height: auto;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: auto;
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 1.5rem;
+    }
+    
+}
